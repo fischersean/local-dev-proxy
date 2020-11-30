@@ -21,13 +21,15 @@ After everything is set up you can access your API running on port 8000 and your
 
 NOTE: If you are using Vue's dev server you need to add the following to you vue.config.js file:
 
-`// vue.config.js
+```
+// vue.config.js
 module.exports = {
     // options...
     devServer: {
         disableHostCheck: true
     }
-}`
+}
+```
 
 
 
